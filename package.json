@@ -1,0 +1,15 @@
+{
+  "name": "test-react-express-docker-db",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start-docker": "docker-compose up -d --build",
+    "restart-docker": "docker-compose up -d --build --force-recreate",
+    "stop-docker": "docker-compose down",
+    "logs-docker": "docker-compose logs -f"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
